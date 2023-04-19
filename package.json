@@ -1,0 +1,25 @@
+{
+  "name": "student-marks",
+  "version": "1.0.0",
+  "description": "First Node Proyect",
+  "main": "student-marks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abj1389/node-student-marks.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Alejandro Brasoveanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abj1389/node-student-marks/issues"
+  },
+  "homepage": "https://github.com/abj1389/node-student-marks#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
