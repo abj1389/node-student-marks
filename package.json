@@ -2,9 +2,12 @@
   "name": "student-marks",
   "version": "1.0.0",
   "description": "First Node Proyect",
-  "main": "student-marks.js",
+  "main": "./src/student-marks.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "marks": "node ./src/student-marks.js",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,13 @@
   "homepage": "https://github.com/abj1389/node-student-marks#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0"
   }
 }
